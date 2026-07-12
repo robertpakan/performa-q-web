@@ -288,6 +288,9 @@ about_body = '''
     <div class="rv">
       <p class="eyebrow">The premise</p>
       <p class="serif-pull">"Refusal is the most affirmative thing this platform does."</p>
+      <video autoplay muted loop playsinline preload="metadata" poster="img/performa-2-poster.jpg" aria-label="Animated collage: a drag performer and two companions with green mustaches over colour shards" style="display:block;width:100%;margin-top:32px;border:3px solid #17150F">
+        <source src="video/performa_2.mp4" type="video/mp4">
+      </video>
     </div>
     <div class="rv">
       <p>Queer performing arts from Europe's periphery are made under pressure — defunded, delegitimised, sometimes criminalised. The work exists anyway. What it lacks is infrastructure: time to create, routes to travel, and a memory that outlasts the season.</p>
@@ -428,6 +431,9 @@ qtheq_body = '''
     <p class="eyebrow green">QTHEQ · Video Archive</p>
     <h1 style="max-width:12ch">The stage remembers</h1>
     <p class="serif-pull" style="color:#F1EDE2;margin-top:24px">A cinémathèque for queer performance — recorded, kept, and impossible to erase.</p>
+    <video autoplay muted loop playsinline preload="metadata" poster="img/performa-3-poster.jpg" aria-label="Animated collage: three performers with painted mustaches among bright geometric shards" style="display:block;width:100%;margin-top:44px;border:3px solid #F1EDE2">
+      <source src="video/performa_3.mp4" type="video/mp4">
+    </video>
   </div>
 </section>
 
@@ -495,7 +501,9 @@ for cc, name, role, desc, url in PARTNERS:
 
 consortium_body = f'''
 <div class="hero sub" style="background:#1E7F80">
-  <img class="img" src="img/europe-map.webp" alt="Halftone map of Europe collaged with portraits of performers wearing green mustaches">
+  <video class="img" autoplay muted loop playsinline preload="metadata" poster="img/performa-4-poster.jpg" aria-label="Animated collage: map fragments of Europe with portraits of performers wearing mustaches" style="object-fit:cover">
+    <source src="video/performa_4.mp4" type="video/mp4">
+  </video>
   <div class="plate">
     <p class="eyebrow green">The Consortium</p>
     <h1>Six partners, one stage</h1>
