@@ -311,7 +311,7 @@ about_body = '''
 
 <section class="band-ink on-dark ruled">
   <div class="wrap">
-    <p class="eyebrow green">The brand is</p>
+    <p class="eyebrow green">PERFORMA-Q is</p>
     <h2>Six words we answer to</h2>
     <div class="grid-3" style="margin-top:40px">
       <div class="trait rv" style="background:#C9A227;color:#17150F"><span class="word">Engaged.</span><p>The platform never speaks at people. Every call asks a question, every page invites a click, every show begins with a name and a hand.</p></div>
@@ -361,7 +361,9 @@ page("about.html",
 # ============================================================ RESIDENCY
 residency_body = '''
 <div class="hero sub" style="background:#C9A227">
-  <img class="img" src="img/collage-faces.webp" alt="Group collage of performers with signal-green mustaches over a field of colour shards" style="opacity:1">
+  <video class="img" autoplay muted loop playsinline preload="metadata" poster="img/residency-ensemble-poster.jpg" aria-label="Animated collage: three performers with mustaches over shifting colour shards" style="opacity:1;object-fit:cover">
+    <source src="video/residency_ensemble.mp4" type="video/mp4">
+  </video>
   <div class="plate">
     <p class="eyebrow green">Residency programme</p>
     <h1>Time, care and resources to make the work</h1>
@@ -551,7 +553,12 @@ opencall_body = f'''
       </p>
     </div>
     <figure class="rv" style="margin:0;align-self:end">
-      <img src="img/poster-opencall.webp" alt="Open call poster: portrait of a performer with a green mustache and the slogan The Stage Honors Every Role — apply now" style="display:block;max-height:560px;width:auto;margin:0 auto;border:3px solid #17150F">
+      <div style="display:flex;gap:28px;justify-content:center;align-items:stretch;flex-wrap:wrap">
+        <img src="img/poster-opencall.webp" alt="Open call poster: portrait of a performer with a green mustache and the slogan The Stage Honors Every Role — apply now" style="display:block;max-height:560px;width:auto;border:3px solid #17150F">
+        <video autoplay muted loop playsinline preload="metadata" poster="img/opencall-tropics-poster.jpg" aria-label="Animated tropical collage: a bright bird among hibiscus flowers and palm leaves over halftone shapes" style="display:block;max-height:560px;width:auto;aspect-ratio:1/1;border:3px solid #17150F;object-fit:cover">
+          <source src="video/opencall_tropics.mp4" type="video/mp4">
+        </video>
+      </div>
     </figure>
   </div>
 </section>
