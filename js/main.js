@@ -51,18 +51,29 @@
     document.querySelectorAll('.rv').forEach(function (el) { el.classList.add('in'); });
   }
 
-  /* contact form → mail client */
+  /* contact form → FormSubmit (AJAX, stays on page) */
   var form = document.querySelector('form.contact');
   if (form) {
     form.addEventListener('submit', function (ev) {
       ev.preventDefault();
-      var to = 'performa@performa-q.eu';
-      var name = form.querySelector('#c-name').value.trim();
-      var topic = form.querySelector('#c-topic').value;
-      var msg = form.querySelector('#c-msg').value.trim();
-      var subject = encodeURIComponent('[' + topic + '] Message from performa-q.eu');
-      var body = encodeURIComponent(msg + '\n\n— ' + name);
-      window.location.href = 'mailto:' + to + '?subject=' + subject + '&body=' + body;
+      var btn = form.querySelector('button[type=submit]');
+      var note = form.querySelector('[data-form-note]');
+      var data = new FormData(form);
+      btn.disabled = true; btn.textContent = 'Sending…';
+      fetch('https://formsubmit.co/ajax/performa@performa-q.eu', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: data
+      }).then(function (r) { return r.json(); }).then(function (res) {
+        if (res.success === 'true' || res.success === true) {
+          form.reset();
+          btn.textContent = 'Sent ✓';
+          if (note) note.textContent = 'Thank you — your message is on its way.';
+        } else { throw new Error('send failed'); }
+      }).catch(function () {
+        btn.disabled = false; btn.textContent = 'Send message';
+        if (note) note.textContent = 'Sending failed — please e-mail performa@performa-q.eu directly.';
+      });
     });
   }
 })();

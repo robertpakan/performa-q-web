@@ -242,10 +242,18 @@ home_body = '''
         <source src="video/contact_hummingbird.mp4" type="video/mp4">
       </video>
     </div>
-    <form class="contact rv" aria-label="Contact form">
+    <form class="contact rv" aria-label="Contact form" method="POST" action="https://formsubmit.co/performa@performa-q.eu">
+      <input type="hidden" name="_subject" value="Message from performa-q.eu">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
       <div>
         <label for="c-name">Name</label>
         <input id="c-name" name="name" type="text" autocomplete="name" required>
+      </div>
+      <div>
+        <label for="c-email">E-mail</label>
+        <input id="c-email" name="email" type="email" autocomplete="email" required>
       </div>
       <div>
         <label for="c-topic">Topic</label>
@@ -262,7 +270,7 @@ home_body = '''
         <textarea id="c-msg" name="message" required></textarea>
       </div>
       <button class="btn" type="submit">Send message</button>
-      <p class="figure-note">Opens your e-mail client — nothing is stored on this site.</p>
+      <p class="figure-note" data-form-note>Sends directly to the PERFORMA-Q team.</p>
     </form>
   </div>
 </section>
