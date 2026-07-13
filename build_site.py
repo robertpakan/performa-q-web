@@ -238,6 +238,9 @@ home_body = '''
         <div class="postit r2" style="margin-left:34px">The stage reveals the unseen.</div>
         <div class="postit r3">The stage remembers <em>what history erased.</em></div>
       </div>
+      <video autoplay muted loop playsinline preload="metadata" poster="img/contact-hummingbird-poster.jpg" aria-label="Animated collage: profile of a woman in magenta with a line-drawn hummingbird" style="display:block;width:100%;max-width:440px;margin-top:38px;border:3px solid #17150F">
+        <source src="video/contact_hummingbird.mp4" type="video/mp4">
+      </video>
     </div>
     <form class="contact rv" aria-label="Contact form">
       <div>
@@ -561,7 +564,7 @@ opencall_body = f'''
     <figure class="rv" style="margin:0;align-self:end">
       <div style="display:flex;gap:28px;justify-content:center;align-items:stretch;flex-wrap:wrap">
         <img src="img/poster-opencall.webp" alt="Open call poster: portrait of a performer with a green mustache and the slogan The Stage Honors Every Role — apply now" style="display:block;max-height:560px;width:auto;border:3px solid #17150F">
-        <video autoplay muted loop playsinline preload="metadata" poster="img/opencall-tropics-poster.jpg" aria-label="Animated tropical collage: a bright bird among hibiscus flowers and palm leaves over halftone shapes" style="display:block;max-height:560px;width:auto;aspect-ratio:1/1;border:3px solid #17150F;object-fit:cover">
+        <video autoplay muted loop playsinline preload="metadata" poster="img/opencall-tropics-poster.jpg" aria-label="Animated tropical collage: a vivid bird among hibiscus flowers, palms and a halftone volcano" style="display:block;max-height:560px;width:auto;aspect-ratio:1/1;border:3px solid #17150F;object-fit:cover">
           <source src="video/opencall_tropics.mp4" type="video/mp4">
         </video>
       </div>

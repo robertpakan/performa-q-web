@@ -56,7 +56,7 @@
   if (form) {
     form.addEventListener('submit', function (ev) {
       ev.preventDefault();
-      var to = 'perfroma@performa-q.eu';
+      var to = 'performa@performa-q.eu';
       var name = form.querySelector('#c-name').value.trim();
       var topic = form.querySelector('#c-topic').value;
       var msg = form.querySelector('#c-msg').value.trim();
