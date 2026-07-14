@@ -356,6 +356,9 @@ about_body = '''
     <p class="eyebrow">Cycle I</p>
     <h2 style="max-width:20ch">The Artistic Board</h2>
     <p style="max-width:62ch">Twelve performing-arts experts — two from each consortium partner — read every application. Each proposal is scored independently by at least two members; a third reader settles borderline calls. The board also proposes a better-suited partner venue where that unlocks a project's potential.</p>
+    <video autoplay muted loop playsinline preload="metadata" poster="img/board-objects-poster.jpg" aria-label="Animated collage of contemporary theatre and drag objects: wig, sequin gloves, lipstick, scripts, backstage mirror lights" style="display:block;width:100%;margin-top:38px;border:3px solid #17150F">
+      <source src="video/board_objects.mp4" type="video/mp4">
+    </video>
     <div style="margin-top:40px">
       <div class="partner rv">
         <span class="cc">SK</span>
