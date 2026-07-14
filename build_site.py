@@ -1,3 +1,5 @@
+import time as _t
+ASSET_V = str(int(_t.time()))
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """PERFORMA-Q website builder — generates static pages with shared shell."""
@@ -45,7 +47,7 @@ def head(title, desc, page):
 <meta property="og:url" content="https://www.performa-q.eu/{'' if page=='index.html' else page}">
 <meta property="og:image" content="https://www.performa-q.eu/img/hero-home.webp">
 <link rel="icon" href="{QBUG_FAVICON}">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v={ASSET_V}">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -124,7 +126,7 @@ def footer(page):
     </div>
   </div>
 </footer>
-<script src="js/main.js"></script>
+<script src="js/main.js?v={ASSET_V}"></script>
 </body>
 </html>'''
 
@@ -346,6 +348,77 @@ about_body = '''
       <p>A funded artist, paid in full, on a stage that does not flinch, making an audience laugh until they cry — that is the most affirmative refusal of erasure this platform can stage.</p>
       <p>So the archive holds grief and glitter in the same shelf. The residencies make room for rage and for rock-star entrances. Never at the expense of a name, a credit, or a payment. Always at the expense of solemnity.</p>
     </div>
+  </div>
+</section>
+
+<section class="band-paper ruled" id="board">
+  <div class="wrap">
+    <p class="eyebrow">Cycle I</p>
+    <h2 style="max-width:20ch">The Artistic Board</h2>
+    <p style="max-width:62ch">Twelve performing-arts experts — two from each consortium partner — read every application. Each proposal is scored independently by at least two members; a third reader settles borderline calls. The board also proposes a better-suited partner venue where that unlocks a project's potential.</p>
+    <div style="margin-top:40px">
+      <div class="partner rv">
+        <span class="cc">SK</span>
+        <div>
+          <h3>Róbert Pakan</h3>
+          <p>Founder and director of the Drama Queer Festival, Slovakia's leading international festival dedicated to LGBTQ+ performing arts. Theatre actor, producer and cultural manager focused on diversity, community engagement and new artistic platforms connecting local and international performing arts communities.</p>
+          <h3 style="margin-top:22px">Sandra Polovková</h3>
+          <p>Director of Post Bellum SK since 2016. Studied Theatre Studies at VŠMU Bratislava; formerly a dramaturg and theatre practitioner. Her work joins documentary storytelling, oral history, cultural heritage and arts-based education across national and international projects.</p>
+        </div>
+        <span class="cc" style="opacity:.6">NOMANTINELS</span>
+      </div>
+      <div class="partner rv">
+        <span class="cc">BA</span>
+        <div>
+          <h3>Maja Burazerović</h3>
+          <p>Director at the Sarajevo War Theatre.</p>
+          <h3 style="margin-top:22px">Ishak Jalimam</h3>
+          <p>Producer at the Sarajevo War Theatre.</p>
+        </div>
+        <span class="cc" style="opacity:.6">SARTR</span>
+      </div>
+      <div class="partner rv">
+        <span class="cc">CZ</span>
+        <div>
+          <h3>Alexandra Horoščák Bolfová</h3>
+          <p>Theatre director, dramaturg and curator working in devised theatre, socially engaged performance and feminist perspectives. Member of the artistic and executive leadership of CO.LABS, active across institutional and independent contexts and in arts education.</p>
+          <h3 style="margin-top:22px">Klaudia Klembarová</h3>
+          <p>Member of the CO.LABS management team responsible for artistic project coordination, management, administration and marketing. Coordinator of support programmes and residencies, and curator of the music programme.</p>
+        </div>
+        <span class="cc" style="opacity:.6">CO.LABS</span>
+      </div>
+      <div class="partner rv">
+        <span class="cc">AT</span>
+        <div>
+          <h3>Bernhard Studlar</h3>
+          <p>Artistic director of Wiener Wortstaetten, experienced playwright, mentor and senior expert in dramaturgy.</p>
+          <h3 style="margin-top:22px">Martina Knoll</h3>
+          <p>Managing director of Wiener Wortstaetten, cultural manager and producer working across contemporary playwriting, theatre, performance and music — artistic creation, strategic development and international collaboration.</p>
+        </div>
+        <span class="cc" style="opacity:.6">Wiener Wortstaetten</span>
+      </div>
+      <div class="partner rv">
+        <span class="cc">SE</span>
+        <div>
+          <h3>Ulricha Johnson</h3>
+          <p>Managing Director of the Swedish Performing Arts Coalition, the Swedish Centre of ITI. Founder of the Proud Performing Arts Network and Workgroup. Actor, translator, director and activist.</p>
+          <h3 style="margin-top:22px">Malin Tengvard</h3>
+          <p>Swedish actor educated at the Malmö Academy of Dramatic Arts; project manager for Proud Performing Arts festivals during Stockholm Pride.</p>
+        </div>
+        <span class="cc" style="opacity:.6">Swedish Performing Arts Coalition</span>
+      </div>
+      <div class="partner rv">
+        <span class="cc">UA</span>
+        <div>
+          <h3>Evangelos Kosmidis</h3>
+          <p>Theatre director, writer, actor and Artistic Director of Mariupol Theatre of Ukraine in Exile. Creator and director of ALASKA, a multilingual devised-documentary performance. His practice centres testimony, memory, displacement, resilience and community-based creation.</p>
+          <h3 style="margin-top:22px">Mariia Boiko</h3>
+          <p>Ukrainian theatre practitioner, performer and coordinator of Mariupol Theatre of Ukraine in Exile. Core team member of ALASKA; her work joins artistic participation, coordination and support for international collaborations preserving the cultural memory of Mariupol.</p>
+        </div>
+        <span class="cc" style="opacity:.6">Mariupol Theatre in Exile / UCPE</span>
+      </div>
+    </div>
+    <p class="figure-note" style="margin-top:26px">Scorecard: 30% intersectionality &amp; representation · 30% artistic quality &amp; innovation · 20% relevance to the theme · 20% feasibility &amp; transnational potential.</p>
   </div>
 </section>
 
