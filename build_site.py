@@ -145,7 +145,9 @@ def page(filename, title, desc, slogan_kind, body, strip=True):
 # ============================================================ HOME
 home_body = '''
 <div class="hero">
-  <img class="img" src="img/hero-home.webp" alt="Collage: a drag performer and a person with a signal-green mustache in front of a halftone map of Europe" fetchpriority="high">
+  <video class="img" autoplay muted loop playsinline preload="auto" poster="img/hero-trio-poster.jpg" aria-label="Animated collage: three performers with red lips, teal hair and a signal-green mustache among bright geometric shards" style="object-fit:cover">
+    <source src="video/hero_trio.mp4" type="video/mp4">
+  </video>
   <div class="plate">
     <p class="eyebrow green">European Queer Performing Arts Platform</p>
     <h1>Stage for untold and erased queer stories</h1>
