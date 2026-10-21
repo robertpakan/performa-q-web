@@ -12,8 +12,8 @@
     });
   }
 
-  /* countdown to Open Call deadline — 31 July 2026, 23:59 CEST */
-  var DEADLINE = new Date('2026-07-31T23:59:59+02:00').getTime();
+  /* countdown to Open Call deadline — 30 November 2026, 23:59 CET */
+  var DEADLINE = new Date('2026-11-30T23:59:59+01:00').getTime();
   function pad(n) { return n < 10 ? '0' + n : '' + n; }
   function tick() {
     var els = document.querySelectorAll('[data-count]');
@@ -33,7 +33,7 @@
     });
     var strips = document.querySelectorAll('[data-deadline-msg]');
     strips.forEach(function (s) {
-      if (closed) s.textContent = 'Open Call · Cycle 1 is now closed. Thank you for applying — selections announced soon.';
+      if (closed) s.textContent = 'Open Call · Cycle 2 is now closed. Thank you for applying — results in February 2027.';
     });
     if (!closed) setTimeout(tick, 1000);
   }

@@ -80,7 +80,7 @@ def slogan_band(kind):
 
 def deadline_strip():
     return '''<div class="deadline-strip"><div class="in" data-deadline-msg>
-  <span>Open Call · Cycle 1 closes 31 July 2026</span>
+  <span>Open Call · Cycle 2 closes 30 November 2026</span>
   <span aria-hidden="true">▲</span>
   <span><span data-count="days">–</span>d : <span data-count="hours">–</span>h : <span data-count="minutes">–</span>m left</span>
   <span aria-hidden="true">▲</span>
@@ -104,7 +104,7 @@ def footer(page):
           <li><a href="residency.html">Residency programme</a></li>
           <li><a href="qtheq.html">QTHEQ Video Archive</a></li>
           <li><a href="consortium.html">The Consortium</a></li>
-          <li><a href="open-call.html">Open Call · Cycle 1</a></li>
+          <li><a href="open-call.html">Open Call · Cycle 2</a></li>
         </ul>
       </div>
       <div>
@@ -170,11 +170,11 @@ home_body = '''
 
 <section class="band-ink on-dark ruled">
   <div class="wrap">
-    <p class="eyebrow green">Open Call · Cycle 1 · closes 31 July 2026</p>
+    <p class="eyebrow green">Open Call · Cycle 2 · 21 October – 30 November 2026</p>
     <div class="grid-2" style="align-items:center">
       <div class="rv">
-        <h2>18 residencies.<br>3 years.<br>Cycle 1 is open.</h2>
-        <p style="margin-top:20px">Performing artists, directors, playwrights and collectives working with queer identity and marginalisation in and from Europe's periphery — this stage is built for you and with you.</p>
+        <h2>Six residencies.<br>Six hosts.<br>Cycle 2 is open.</h2>
+        <p style="margin-top:20px">Performing artists, directors, playwrights and collectives working with queer identity and marginalisation in and from Europe's periphery — this stage is built for you and with you. Artistic fee €4,000 – 6,000, travel and stay covered, residencies March – October 2027. The host you choose matters.</p>
         <p style="display:flex;gap:16px;flex-wrap:wrap;margin-top:26px">
           <a class="btn" href="open-call.html">Read the call &amp; apply</a>
         </p>
@@ -189,6 +189,30 @@ home_body = '''
   </div>
 </section>
 
+<section class="band-paper ruled">
+  <div class="wrap">
+    <p class="eyebrow">Open Call · Cycle 1 · Results</p>
+    <div class="grid-2" style="align-items:start">
+      <div class="rv">
+        <h2>111 applications.<br>6 residencies.</h2>
+        <p style="margin-top:20px">The first open call closed on 31 July 2026 with 111 applications from across Europe — 71 individual artists and 40 collectives. A twelve-member Artistic Board read every proposal twice, and on 30 September 2026 selected one residency for each partner organisation.</p>
+        <p>Not selected does not mean not good enough: the selection rate was 5.4 %. Cycle 2 is open now — <a href="open-call.html">read the call and apply again</a>.</p>
+      </div>
+      <div class="rv">
+        <table class="spec">
+          <tr><th style="width:42%">Ivana Kováčiková</th><td><em>Studňa osamenia</em> · NOMANTINELS, Bratislava</td></tr>
+          <tr><th>Uta P. Bekaia &amp; Leah Feldman</th><td><em>(Supra)National</em> · SARTR, Sarajevo</td></tr>
+          <tr><th>Priehradná, Benčíkovie &amp; Veidenbauma</th><td><em>What I Can Say And Who I Can Be</em> · CO.LABS, Brno</td></tr>
+          <tr><th>Pascal Marty</th><td><em>Out of reach</em> · Wiener Wortstaetten, Vienna</td></tr>
+          <tr><th>Krišjānis Elviks</th><td>SPAC / Scensverige, Stockholm</td></tr>
+          <tr><th>Marcus Peter Tesch</th><td><em>Dirty Waters × Toter Grund</em> · UCPE, residency in Bratislava</td></tr>
+        </table>
+        <p style="margin-top:18px"><a class="btn ghost" href="residency.html#cycle1">The Cycle 1 residents</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section>
   <div class="wrap">
     <p class="eyebrow">PERFORMA-Q in action</p>
@@ -197,7 +221,7 @@ home_body = '''
       <div class="tile rv">
         <span class="num">01 · CREATE</span>
         <h3>Residency</h3>
-        <p style="font-size:15.5px">Time, care and resources to develop new performance work — 18 residencies across three years, with mentoring, shared facilities and critical companionship. First cycle runs October 2026 – April 2027.</p>
+        <p style="font-size:15.5px">Time, care and resources to develop new performance work — 18 residencies across three years, with mentoring, shared facilities and critical companionship. Cycle 1 runs October 2026 – April 2027; Cycle 2 follows from March 2027.</p>
         <a class="more" href="residency.html">Residency programme</a>
       </div>
       <div class="tile rv">
@@ -282,7 +306,7 @@ home_body = '''
 
 page("index.html",
      "PERFORMA-Q — Stage for Untold and Erased Queer Stories",
-     "PERFORMA-Q is a European Queer Performing Arts Platform: residencies, touring and a living video archive for queer stories from Europe's periphery. Open Call Cycle 1 closes 31 July 2026.",
+     "PERFORMA-Q is a European Queer Performing Arts Platform: residencies, touring and a living video archive for queer stories from Europe's periphery. Open Call Cycle 2 is open until 30 November 2026.",
      "stage", home_body)
 
 # ============================================================ ABOUT
@@ -490,16 +514,33 @@ residency_body = '''
   </div>
 </section>
 
+<section id="cycle1" class="band-mustard ruled">
+  <div class="wrap">
+    <p class="eyebrow">Cycle 1 · 2026/27</p>
+    <h2 style="max-width:16ch">Six residents, one at each host</h2>
+    <p style="margin-top:14px;max-width:62ch">Selected on 30 September 2026 by the Artistic Board from 111 applications. One residency at each partner organisation; presentations travel through the network from spring 2027.</p>
+    <div class="grid-3" style="margin-top:36px">
+      <div class="tile rv"><span class="num">NOMANTINELS · Bratislava</span><h3>Ivana Kováčiková</h3><p style="font-size:15.5px"><em>Studňa osamenia</em> — a cabaret on queer women's lives, from Radclyffe Hall and Timrava to oral histories from Slovakia.</p></div>
+      <div class="tile rv"><span class="num">SARTR · Sarajevo</span><h3>Uta P. Bekaia &amp; Leah Feldman</h3><p style="font-size:15.5px"><em>(Supra)National</em></p></div>
+      <div class="tile rv"><span class="num">CO.LABS · Brno</span><h3>Priehradná, Benčíkovie &amp; Veidenbauma</h3><p style="font-size:15.5px"><em>What I Can Say And Who I Can Be</em></p></div>
+      <div class="tile rv"><span class="num">Wiener Wortstaetten · Vienna</span><h3>Pascal Marty</h3><p style="font-size:15.5px"><em>Out of reach</em></p></div>
+      <div class="tile rv"><span class="num">SPAC / Scensverige · Stockholm</span><h3>Krišjānis Elviks</h3><p style="font-size:15.5px">New work in development, presented at Stockholm Pride.</p></div>
+      <div class="tile rv"><span class="num">UCPE · in exile, hosted in Bratislava</span><h3>Marcus Peter Tesch</h3><p style="font-size:15.5px"><em>Dirty Waters × Toter Grund</em> — hosted in cooperation with NOMANTINELS, January 2027.</p></div>
+    </div>
+  </div>
+</section>
+
 <section class="band-ink on-dark ruled">
   <div class="wrap">
-    <p class="eyebrow green">Cycle 1 at a glance</p>
-    <h2>October 2026 – April 2027</h2>
+    <p class="eyebrow green">Cycle 2 at a glance</p>
+    <h2>March – October 2027</h2>
     <table class="spec" style="margin-top:30px;color:#F1EDE2">
-      <tr><th style="color:#F1EDE2;width:34%">Applications close</th><td>31 July 2026 · complete applications only</td></tr>
-      <tr><th style="color:#F1EDE2">Residency period</th><td>October 2026 – April 2027</td></tr>
-      <tr><th style="color:#F1EDE2">You submit</th><td>Project description · motivation statement · portfolio or documentation links · short CVs for key collaborators</td></tr>
-      <tr><th style="color:#F1EDE2">Selection weighs</th><td>Artistic quality · clarity of intent · feasibility within the framework · relevance to the programme's focus</td></tr>
-      <tr><th style="color:#F1EDE2">Hosted by</th><td>Partner organisations across the consortium, matched to project needs</td></tr>
+      <tr><th style="color:#F1EDE2;width:34%">Applications</th><td>21 October – 30 November 2026, 23:59 CET · in English · complete applications only</td></tr>
+      <tr><th style="color:#F1EDE2">Residency period</th><td>March – October 2027 · 2 to 4 weeks, dates agreed with your host</td></tr>
+      <tr><th style="color:#F1EDE2">Artistic fee</th><td>€4,000 – 6,000 per residency · travel and accommodation covered by the host on top</td></tr>
+      <tr><th style="color:#F1EDE2">You submit</th><td>CV &amp; portfolio · project proposal (max. 2 pages) · first and second host choice with a short why · practical information · AI disclosure</td></tr>
+      <tr><th style="color:#F1EDE2">Selection weighs</th><td>Intersectionality &amp; representation 30 % · artistic quality &amp; innovation 30 % · relevance to the theme 20 % · feasibility &amp; transnational potential 20 %</td></tr>
+      <tr><th style="color:#F1EDE2">Hosted by</th><td>One residency at each of the six partners — the host you choose matters</td></tr>
     </table>
     <p style="margin-top:34px"><a class="btn" href="open-call.html">Open Call · read &amp; apply</a></p>
   </div>
@@ -508,7 +549,7 @@ residency_body = '''
 
 page("residency.html",
      "Residency — PERFORMA-Q",
-     "The PERFORMA-Q residency: 18 residencies over three years for experimental, politically engaged queer performance. Cycle 1 runs October 2026 – April 2027; applications close 31 July 2026.",
+     "The PERFORMA-Q residency: 18 residencies over three years for experimental, politically engaged queer performance. Cycle 2 runs March – October 2027; applications open 21 October – 30 November 2026.",
      "work", residency_body)
 
 # ============================================================ QTHEQ
@@ -627,14 +668,14 @@ page("consortium.html",
      "archive", consortium_body)
 
 # ============================================================ OPEN CALL
-FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSe9jOwn6hAoRVssOPVfXVTDfvvjDmfLUEJQaMpPHg7H2FH9Pw/viewform?usp=header"
-CALLTEXT_URL = "https://drive.google.com/file/d/1g2B9rDTdTe08HfsxBduqLZ1fUkvljoo8/view?usp=sharing"
+FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSe9jOwn6hAoRVssOPVfXVTDfvvjDmfLUEJQaMpPHg7H2FH9Pw/viewform?usp=header"  # TODO: replace with the Cycle 2 Google Form
+CALLTEXT_URL = "https://docs.google.com/document/d/1a_L854_QkJXvDbpEakXlBKu9OujmOQEN/view"  # Cycle 2 call text
 
 opencall_body = f'''
 <section class="band-sangria on-dark" style="padding-top:clamp(56px,8vw,110px);padding-bottom:0">
   <div class="wrap grid-2" style="align-items:end">
     <div class="rv" style="padding-bottom:clamp(44px,7vw,90px)">
-      <p class="eyebrow green">Open Call · Cycle 1 · Residency programme</p>
+      <p class="eyebrow green">Open Call · Cycle 2 · Residency programme</p>
       <h1 style="font-size:clamp(38px,5vw,74px)">Step onto a stage built for you and with you</h1>
       <div class="countdown" style="margin-top:36px" role="timer" aria-label="Time remaining until the application deadline">
         <div class="cell"><span class="n" data-count="days">–</span><span class="l">Days</span></div>
@@ -644,7 +685,7 @@ opencall_body = f'''
       </div>
       <p style="display:flex;gap:16px;flex-wrap:wrap;margin-top:34px">
         <a class="btn" href="{FORM_URL}" rel="noopener">Apply now ↗</a>
-        <a class="btn ghost on-ink" href="{CALLTEXT_URL}" rel="noopener" style="color:#F1EDE2">Call text (PDF) ↗</a>
+        <a class="btn ghost on-ink" href="{CALLTEXT_URL}" rel="noopener" style="color:#F1EDE2">Full call text ↗</a>
       </p>
     </div>
     <figure class="rv" style="margin:0;align-self:end">
@@ -665,8 +706,8 @@ opencall_body = f'''
       <h2>Untold and erased queer stories</h2>
     </div>
     <div class="rv">
-      <p><strong>Open Call – Cycle 1</strong> of the PERFORMA-Q residency programme invites performing artists, directors, playwrights and collectives whose work confronts queer identity and marginalisation in and from Europe's periphery. We are looking for bold voices ready to reclaim erased histories, challenge dominant narratives, and carve out space for stories that rarely reach the spotlight.</p>
-      <p>The residency, running <strong>October 2026 – April 2027</strong>, offers time, care and resources to develop performance projects that center queer lives, struggles and joys at the edges of Europe. Applications are open until <strong>31 July 2026</strong>, and we especially welcome proposals that experiment with form, language and collaboration.</p>
+      <p><strong>Open Call – Cycle 2</strong> of the PERFORMA-Q residency programme invites performing artists, directors, playwrights and collectives whose work confronts queer identity and marginalisation in and from Europe's periphery. We are looking for bold voices ready to reclaim erased histories, challenge dominant narratives, and carve out space for stories that rarely reach the spotlight.</p>
+      <p>Six residencies — one at each of our six partner organisations — run between <strong>March and October 2027</strong>, two to four weeks each, with an artistic fee of <strong>€4,000 – 6,000</strong> and travel and accommodation covered by the host. Applications are open from <strong>21 October</strong> until <strong>30 November 2026, 23:59 CET</strong>, in English. The first call drew 111 applications; if you came close, apply again.</p>
       <p>If your practice is rooted in resistance, community and visibility, this call is an invitation to step onto a stage built for you and with you.</p>
     </div>
   </div>
@@ -689,16 +730,33 @@ opencall_body = f'''
   </div>
 </section>
 
+<section class="band-ink on-dark ruled">
+  <div class="wrap">
+    <p class="eyebrow green">Choose your host</p>
+    <h2 style="max-width:18ch">The host you choose matters</h2>
+    <p style="margin-top:14px;max-width:66ch">Each partner hosts exactly one residency in Cycle 2. Your first-choice host defines the environment your work grows in — and the group of applicants you are compared with. Name a first and a second choice in the form and tell us, in a few sentences, why. Choose the host that fits your project, not the best-known city.</p>
+    <table class="spec" style="margin-top:30px;color:#F1EDE2">
+      <tr><th style="color:#F1EDE2;width:30%">NOMANTINELS · Bratislava, SK</th><td>Queer theatre company and organiser of the Drama Queer Festival, working from the cultural centre P*AKT. Best for production-based work that wants a queer festival audience.</td></tr>
+      <tr><th style="color:#F1EDE2">Wiener Wortstaetten · Vienna, AT</th><td>Research laboratory and text workshop for playwrights, with a focus on writers from marginalised groups. Best for text-only projects: new plays, dramaturgical development.</td></tr>
+      <tr><th style="color:#F1EDE2">CO.LABS · Brno, CZ</th><td>Open, shared platform for independent collectives in contemporary performing arts. Best for devised, interdisciplinary or community-based work that needs a flexible studio.</td></tr>
+      <tr><th style="color:#F1EDE2">SARTR · Sarajevo, BA</th><td>Repertory theatre founded in 1992 during the siege, with an acting ensemble, a full stage and crew. Best for projects that need a theatre and actors, or that work with memory, conflict and post-war queer experience.</td></tr>
+      <tr><th style="color:#F1EDE2">SPAC / Scensverige · Stockholm, SE</th><td>Swedish Performing Arts Coalition — a national hub with strong international networks and a queer programme at Stockholm Pride. Best for work that travels well in compact formats.</td></tr>
+      <tr><th style="color:#F1EDE2">UCPE · hosted in Bratislava</th><td>Ukrainian Cultural Platform in Exile (Mariupol Theatre in Exile). No artists are sent to Ukraine; the residency takes place in Bratislava in cooperation with NOMANTINELS. Best for artists working with exile, war and resilience.</td></tr>
+    </table>
+  </div>
+</section>
+
 <section>
   <div class="wrap">
     <p class="eyebrow">Practical information</p>
     <h2>How to apply</h2>
     <table class="spec" style="margin-top:28px">
-      <tr><th style="width:30%">Who can apply</th><td>Performing artists, directors, playwrights and artistic collectives — emerging and established — with practices connected to Europe's periphery or meaningfully engaging with its realities.</td></tr>
-      <tr><th>Framework</th><td>18 residencies across three years. This call concerns Cycle 1: October 2026 – April 2027. Each residency offers dedicated time and space, shared facilities, and mentoring matched to project needs.</td></tr>
-      <tr><th>Your application</th><td>Concise project description · connection to Europe's periphery or related contexts · goals for the residency · short motivation statement · portfolio or documentation links · brief CVs for key collaborators.</td></tr>
-      <tr><th>Deadline</th><td><strong>31 July 2026</strong> — only complete applications received by the deadline are considered.</td></tr>
-      <tr><th>Selection</th><td>Artistic quality · clarity of intent · feasibility within the residency framework · relevance to the programme's focus. Applications from artists with diverse backgrounds, working methods and access needs are encouraged.</td></tr>
+      <tr><th style="width:30%">Who can apply</th><td>Performing artists, directors, playwrights and collectives (up to eight people) — emerging and established — based in an EU Member State or a country associated to Creative Europe. Artists selected in Cycle 1 are not eligible for Cycle 2.</td></tr>
+      <tr><th>Two categories</th><td><strong>A · Text-only</strong> (research &amp; playwriting — you are drafting the blueprint) or <strong>B · Production-based</strong> (devising, rehearsing or finalizing a performative work — you are building the house).</td></tr>
+      <tr><th>Framework</th><td>18 residencies across three years. This call concerns Cycle 2: six residencies of 2 – 4 weeks between March and October 2027, one at each partner. Artistic fee €4,000 – 6,000 depending on the scale of the project; travel, accommodation, rehearsal space, technical support and 1:1 mentorship are provided by the host on top. Selected works are presented 3 – 5 times across the network.</td></tr>
+      <tr><th>Your application</th><td>CV &amp; portfolio (max. 3 pages or a link) · project proposal in English (max. 2 pages; Category A adds a one-page description and a text excerpt of up to 6 pages) · first and second host choice with up to 150 words on why · availability, team size and access needs · AI disclosure.</td></tr>
+      <tr><th>Deadline</th><td><strong>30 November 2026, 23:59 CET</strong> — only complete applications in English received by the deadline are considered.</td></tr>
+      <tr><th>Selection</th><td>Intersectionality &amp; representation (30 %) · artistic quality &amp; innovation (30 %) · relevance to the theme (20 %) · feasibility &amp; transnational potential (20 %). Each application is read by at least two Board members from different organisations; residencies are decided per host. Gender balance and equality are considered in the final selection. Results by end of January 2027, public announcement in February 2027.</td></tr>
     </table>
   </div>
 </section>
@@ -709,19 +767,21 @@ opencall_body = f'''
     <h2>Before you ask</h2>
     <div style="margin-top:30px;max-width:820px">
       <details class="rv"><summary>Can I apply as a collective?</summary><div class="a"><p>Yes — collectives are explicitly welcome. Include brief CVs for all key collaborators in the application.</p></div></details>
-      <details class="rv"><summary>Do I have to be based in one of the partner countries?</summary><div class="a"><p>No. The programme is oriented toward practices connected to Europe's periphery, including artists based elsewhere whose work meaningfully engages with these realities.</p></div></details>
+      <details class="rv"><summary>Do I have to be based in one of the partner countries?</summary><div class="a"><p>No — but you must be based in an EU Member State or a country associated to the Creative Europe programme. The programme is oriented toward practices connected to Europe's periphery.</p></div></details>
+      <details class="rv"><summary>Can I apply in my own language?</summary><div class="a"><p>Applications are in English so that the whole Artistic Board can read every proposal. In Category A the text excerpt may be in the original language with an English summary. Final performances may be in local languages.</p></div></details>
+      <details class="rv"><summary>I applied in Cycle 1 and was not selected. Can I apply again?</summary><div class="a"><p>Yes, please do. The selection rate in Cycle 1 was 5.4 %; many strong proposals did not fit the single residency available at their chosen host. Read the host profiles above and choose with care.</p></div></details>
       <details class="rv"><summary>Does my project have to be finished during the residency?</summary><div class="a"><p>No. Research-driven proposals, long-term inquiries and early-stage experiments are welcome — process is valued as much as finished results. Work-in-progress sharings and public presentations happen within realistic organisational capacities.</p></div></details>
       <details class="rv"><summary>What about accessibility?</summary><div class="a"><p>Basic support for accessibility can be discussed with selected residents within available resources. State your access needs in the application — it has no bearing on selection.</p></div></details>
-      <details class="rv"><summary>When will I hear back?</summary><div class="a"><p>Selection follows the July 31 deadline; all applicants will be notified by e-mail. Questions in the meantime — use the <a href="index.html#contact">contact form</a>.</p></div></details>
+      <details class="rv"><summary>When will I hear back?</summary><div class="a"><p>Evaluation runs December 2026 – January 2027; selected artists and the waiting list are contacted by the end of January, and the six residencies are announced in February 2027. All applicants are notified by e-mail. Questions in the meantime — use the <a href="index.html#contact">contact form</a>.</p></div></details>
     </div>
-    <p style="margin-top:44px"><a class="btn" href="{FORM_URL}" rel="noopener">Apply now — shape the first cycle ↗</a></p>
+    <p style="margin-top:44px"><a class="btn" href="{FORM_URL}" rel="noopener">Apply now — shape the second cycle ↗</a></p>
   </div>
 </section>
 '''
 
 page("open-call.html",
-     "Open Call · Cycle 1 — PERFORMA-Q",
-     "Open Call Cycle 1: PERFORMA-Q residency for queer performing artists from Europe's periphery. Residency October 2026 – April 2027. Applications close 31 July 2026.",
+     "Open Call · Cycle 2 — PERFORMA-Q",
+     "Open Call Cycle 2: six PERFORMA-Q residencies for queer performing artists from Europe's periphery. March – October 2027, artistic fee €4,000 – 6,000. Applications 21 October – 30 November 2026.",
      "work", opencall_body)
 
 print("all pages built")
