@@ -174,7 +174,7 @@ home_body = '''
     <div class="grid-2" style="align-items:center">
       <div class="rv">
         <h2>Six residencies.<br>Six hosts.<br>Cycle 2 is open.</h2>
-        <p style="margin-top:20px">Performing artists, directors, playwrights and collectives working with queer identity and marginalisation in and from Europe's periphery — this stage is built for you and with you. Artistic fee €4,000 – 6,000, travel and stay covered, residencies March – October 2027. The host you choose matters.</p>
+        <p style="margin-top:20px">Performing artists, directors, playwrights and collectives working with queer identity and marginalisation in and from Europe's periphery — this stage is built for you and with you. Artistic fee €1,500 – 6,000, travel and stay covered, residencies March – October 2027. The host you choose matters.</p>
         <p style="display:flex;gap:16px;flex-wrap:wrap;margin-top:26px">
           <a class="btn" href="open-call.html">Read the call &amp; apply</a>
         </p>
@@ -537,7 +537,7 @@ residency_body = '''
     <table class="spec" style="margin-top:30px;color:#F1EDE2">
       <tr><th style="color:#F1EDE2;width:34%">Applications</th><td>21 October – 30 November 2026, 23:59 CET · in English · complete applications only</td></tr>
       <tr><th style="color:#F1EDE2">Residency period</th><td>March – October 2027 · 2 to 4 weeks, dates agreed with your host</td></tr>
-      <tr><th style="color:#F1EDE2">Artistic fee</th><td>€4,000 – 6,000 per residency · travel and accommodation covered by the host on top</td></tr>
+      <tr><th style="color:#F1EDE2">Artistic fee</th><td>€1,500 – 6,000 per residency · travel and accommodation covered by the host on top</td></tr>
       <tr><th style="color:#F1EDE2">You submit</th><td>CV &amp; portfolio · project proposal (max. 2 pages) · first and second host choice with a short why · practical information · AI disclosure</td></tr>
       <tr><th style="color:#F1EDE2">Selection weighs</th><td>Intersectionality &amp; representation 30 % · artistic quality &amp; innovation 30 % · relevance to the theme 20 % · feasibility &amp; transnational potential 20 %</td></tr>
       <tr><th style="color:#F1EDE2">Hosted by</th><td>One residency at each of the six partners — the host you choose matters</td></tr>
@@ -707,7 +707,7 @@ opencall_body = f'''
     </div>
     <div class="rv">
       <p><strong>Open Call – Cycle 2</strong> of the PERFORMA-Q residency programme invites performing artists, directors, playwrights and collectives whose work confronts queer identity and marginalisation in and from Europe's periphery. We are looking for bold voices ready to reclaim erased histories, challenge dominant narratives, and carve out space for stories that rarely reach the spotlight.</p>
-      <p>Six residencies — one at each of our six partner organisations — run between <strong>March and October 2027</strong>, two to four weeks each, with an artistic fee of <strong>€4,000 – 6,000</strong> and travel and accommodation covered by the host. Applications are open from <strong>21 October</strong> until <strong>30 November 2026, 23:59 CET</strong>, in English. The first call drew 111 applications; if you came close, apply again.</p>
+      <p>Six residencies — one at each of our six partner organisations — run between <strong>March and October 2027</strong>, two to four weeks each, with an artistic fee of <strong>€1,500 – 6,000</strong> and travel and accommodation covered by the host. Applications are open from <strong>21 October</strong> until <strong>30 November 2026, 23:59 CET</strong>, in English. The first call drew 111 applications; if you came close, apply again.</p>
       <p>If your practice is rooted in resistance, community and visibility, this call is an invitation to step onto a stage built for you and with you.</p>
     </div>
   </div>
@@ -753,7 +753,7 @@ opencall_body = f'''
     <table class="spec" style="margin-top:28px">
       <tr><th style="width:30%">Who can apply</th><td>Performing artists, directors, playwrights and collectives (up to eight people) — emerging and established — based in an EU Member State or a country associated to Creative Europe. Artists selected in Cycle 1 are not eligible for Cycle 2.</td></tr>
       <tr><th>Two categories</th><td><strong>A · Text-only</strong> (research &amp; playwriting — you are drafting the blueprint) or <strong>B · Production-based</strong> (devising, rehearsing or finalizing a performative work — you are building the house).</td></tr>
-      <tr><th>Framework</th><td>18 residencies across three years. This call concerns Cycle 2: six residencies of 2 – 4 weeks between March and October 2027, one at each partner. Artistic fee €4,000 – 6,000 depending on the scale of the project; travel, accommodation, rehearsal space, technical support and 1:1 mentorship are provided by the host on top. Selected works are presented 3 – 5 times across the network.</td></tr>
+      <tr><th>Framework</th><td>18 residencies across three years. This call concerns Cycle 2: six residencies of 2 – 4 weeks between March and October 2027, one at each partner. Artistic fee €1,500 – 6,000 depending on the scale of the project; travel, accommodation, rehearsal space, technical support and 1:1 mentorship are provided by the host on top. Selected works are presented 3 – 5 times across the network.</td></tr>
       <tr><th>Your application</th><td>CV &amp; portfolio (max. 3 pages or a link) · project proposal in English (max. 2 pages; Category A adds a one-page description and a text excerpt of up to 6 pages) · first and second host choice with up to 150 words on why · availability, team size and access needs · AI disclosure.</td></tr>
       <tr><th>Deadline</th><td><strong>30 November 2026, 23:59 CET</strong> — only complete applications in English received by the deadline are considered.</td></tr>
       <tr><th>Selection</th><td>Intersectionality &amp; representation (30 %) · artistic quality &amp; innovation (30 %) · relevance to the theme (20 %) · feasibility &amp; transnational potential (20 %). Each application is read by at least two Board members from different organisations; residencies are decided per host. Gender balance and equality are considered in the final selection. Results by end of January 2027, public announcement in February 2027.</td></tr>
@@ -781,7 +781,7 @@ opencall_body = f'''
 
 page("open-call.html",
      "Open Call · Cycle 2 — PERFORMA-Q",
-     "Open Call Cycle 2: six PERFORMA-Q residencies for queer performing artists from Europe's periphery. March – October 2027, artistic fee €4,000 – 6,000. Applications 21 October – 30 November 2026.",
+     "Open Call Cycle 2: six PERFORMA-Q residencies for queer performing artists from Europe's periphery. March – October 2027, artistic fee €1,500 – 6,000. Applications 21 October – 30 November 2026.",
      "work", opencall_body)
 
 print("all pages built")
