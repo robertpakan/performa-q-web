@@ -668,7 +668,7 @@ page("consortium.html",
      "archive", consortium_body)
 
 # ============================================================ OPEN CALL
-FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSe9jOwn6hAoRVssOPVfXVTDfvvjDmfLUEJQaMpPHg7H2FH9Pw/viewform?usp=header"  # TODO: replace with the Cycle 2 Google Form
+FORM_URL = "https://forms.gle/m7oJUJEHzSUZhLde8"  # Cycle 2 application form
 CALLTEXT_URL = "https://docs.google.com/document/d/1a_L854_QkJXvDbpEakXlBKu9OujmOQEN/view"  # Cycle 2 call text
 
 opencall_body = f'''
